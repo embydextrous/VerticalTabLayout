@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SegmentedButtonGroupStyle">
+        <item name="android:padding">3dp</item>
+        <item name="bgColor">#d65b26</item>
+        <item name="sbg_radius">16dp</item>
+        <item name="selectorColor">#ff9429</item>
+    </style>
+
+    <style name="SegmentedButtonStyle">
+        <item name="textColor">#88ffffff</item>
+        <item name="sb_textColor_onSelection">@color/white</item>
+        <item name="sb_textFillSpace">true</item>
+        <item name="sb_textGravity">center</item>
+        <item name="sb_textSize">11sp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SegmentedButton">
+        <attr name="sb_text" format="string"/>
+        <attr name="textColor" format="color"/>
+        <attr name="sb_textColor_onSelection" format="color"/>
+        <attr name="sb_textSize" format="dimension"/>
+        <attr name="sb_textAllCaps" format="boolean"/>
+        <attr name="sb_textTypefaceResId" format="reference"/>
+        <attr name="sb_textFillSpace" format="boolean"/>
+        <attr name="sb_textGravity" format="integer">
+            <flag name="left" value="0"/>
+            <flag name="center" value="1"/>
+            <flag name="right" value="2"/>
+        </attr>
+        <attr name="drawable" format="reference"/>
+        <attr name="sb_drawablePadding" format="dimension"/>
+        <attr name="drawableTint" format="color"/>
+        <attr name="sb_drawableTint_onSelection" format="color"/>
+        <attr name="sb_drawableWidth" format="dimension"/>
+        <attr name="sb_drawableHeight" format="dimension"/>
+        <attr name="sb_drawableKeepAspectRatio" format="boolean"/>
+        <attr name="sb_drawableGravity" format="integer">
+            <flag name="left" value="0"/>
+            <flag name="top" value="1"/>
+            <flag name="right" value="2"/>
+            <flag name="bottom" value="3"/>
+        </attr>
+        <attr name="android:layout_width"/>
+        <attr name="android:layout_height"/>
+        <attr name="android:layout_weight"/>
+    </declare-styleable>
+
+    <declare-styleable name="SegmentedButtonGroup">
+        <attr name="selectorColor" format="color"/>
+        <attr name="sbg_position" format="integer"/>
+        <attr name="sbg_radius" format="dimension"/>
+        <attr name="bgColor" format="color"/>
+        <attr name="sbg_animateSelectorDuration" format="integer"/>
+    </declare-styleable>
+</resources>

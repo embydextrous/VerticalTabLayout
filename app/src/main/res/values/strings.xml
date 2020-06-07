@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TabScrollAttacher</string>
+
+    <string-array name="tabs">
+        <item>Smiley &amp; People</item>
+        <item>Animals</item>
+        <item>Food &amp; Drink</item>
+        <item>Activity</item>
+        <item>Travel &amp; Places</item>
+        <item>Flags</item>
+        <item>Chirps</item>
+        <item>Moddas</item>
+        <item>Lukkas</item>
+    </string-array>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_horizontal">
+
+    <View
+        android:id="@+id/selected_line"
+        android:layout_width="2dp"
+        android:visibility="gone"
+        android:background="#ff0000"
+        android:layout_alignParentBottom="true"
+        android:layout_height="match_parent"/>
+
+   <LinearLayout
+       android:layout_width="68dp"
+       android:orientation="vertical"
+       android:paddingTop="12dp"
+       android:paddingBottom="12dp"
+       android:layout_centerInParent="true"
+       android:gravity="center_horizontal"
+       android:layout_height="wrap_content">
+       <androidx.appcompat.widget.AppCompatImageView
+           android:layout_width="36dp"
+           android:layout_height="36dp"
+           android:layout_margin="8dp"
+           android:src="@android:drawable/ic_btn_speak_now"
+           android:background="@drawable/bg_item" />
+
+       <TextView
+           android:id="@+id/tv"
+           android:layout_width="wrap_content"
+           android:textColor="@color/white"
+           tools:text="Sarees"
+           android:textSize="10sp"
+           android:gravity="center"
+           android:layout_height="wrap_content"/>
+   </LinearLayout>
+
+    <View
+        android:layout_height="1dp"
+        android:background="#88ffffff"
+        android:layout_alignParentRight="true"
+        android:layout_width="match_parent"/>
+</RelativeLayout>
